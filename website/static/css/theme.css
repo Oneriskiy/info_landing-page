@@ -1,0 +1,16 @@
+:root {
+    --background: rgba(12, 13, 14, 1);
+    --text-color: rgba(133, 133, 133, 1);
+    --font-main: 'Poppins', sans-serif;
+    --font-head: 'Raleway', sans-serif;
+
+}
+
+
+* {margin: 0px; padding: 0px;}
+
+body {
+ background-color: var(--background);
+}
+
+
