@@ -1,10 +1,11 @@
 :root {
-    --background: #04010f;
-    --background-header: #04010f;
-    --button-back: rgba(240, 240, 240, 0.95);
+    --background: rgba(0, 0, 0, 0.95);
+    --background-header: (0, 0, 0, 0.95);
+    --button-back: rgba(3, 3, 3, 0.87);
+    --background-hero: rgba(2, 2, 2, 0.35);
     --text-color: #C0C0C0;
-    --font-main: 'Inter', sans-serif;
-    --font-head: 'Inter', sans-serif;
+    --font-main: 'PT Sans', sans-serif;
+    --font-head: 'PT Sans', sans-serif;
 
 }
 
@@ -13,6 +14,7 @@
 
 body {
  background-color: var(--background);
+
 }
 
 
