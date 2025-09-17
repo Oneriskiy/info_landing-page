@@ -172,3 +172,32 @@ height: 150px;
     opacity: 0.3;
 }
 
+.news {
+    background: var(--background-hero);
+    display: grid;
+    grid-template-columns: 3fr 1.4fr 2fr;
+    grid-template-rows: 1fr 1fr;
+    width: 100%;
+    border-radius: 35px;
+    height: 700px;
+    margin: 30px 0px;
+}
+
+.news-banner-1 {
+    grid-row: 1/3;
+}
+
+.news-banner-4 {
+    grid-column: 1/3;
+}
+
+.news-h3 {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+
+
+.news-banner {
+    border: 2px solid black;
+}
