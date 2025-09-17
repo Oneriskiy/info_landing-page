@@ -1,8 +1,10 @@
 :root {
+    --color-table: rgba(255, 255, 255, 0.09);
     --background: rgba(0, 0, 0, 0.95);
     --background-header: (0, 0, 0, 0.95);
     --button-back: rgba(3, 3, 3, 0.87);
     --background-hero: rgba(2, 2, 2, 0.35);
+    --color-green: rgba(0, 255, 70, 1);
     --text-color: #C0C0C0;
     --font-main: 'PT Sans', sans-serif;
     --font-head: 'PT Sans', sans-serif;
@@ -13,8 +15,9 @@
 * {margin: 0px; padding: 0px;}
 
 body {
- background-color: var(--background);
-
+     background-color: var(--background);
+     color: var(--text-color);
+     font-family: var(--font-main);
 }
 
 
