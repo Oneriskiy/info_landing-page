@@ -7,6 +7,7 @@
   <link rel = "stylesheet" href = "../static/css/header.css">
   <link rel = "stylesheet" href = "../static/css/main.css">
   <link rel = "stylesheet" href = "../static/css/footer.css">
+  <link rel = "stylesheet" href = "../static/css/form.css">
   <link rel = "stylesheet" href = "https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap">
 </head>
 <body>
@@ -35,17 +36,17 @@
              и системы от хакерских атак, вирусов и утечек.
              Вы освоите основы защиты сетей, анализа угроз
              и работы с <span class = "green-text"> современными инструментами безопасности.</span> </p>
-           <div class = "start-btn"> <button> изучить </button></div>
+           <div class = "start-btn"> <a href = "#search"> <button> изучить </button> </a> </div>
          </div>
          <div class = "hero-img">
            <img src = "../images/shield.webp">
          </div>
       </div>
       <div class = "slogan-container">
-        <div class = "first-slogan">
+        <div class = "first-slogan" style = "background: url(https://i.ibb.co/B2h8qPTC/twinkling-stars-transparent.gif);">
 
         </div>
-        <div class = "second-slogan">
+        <div class = "second-slogan" style = "background: url(https://i.ibb.co/B2h8qPTC/twinkling-stars-transparent.gif);">
 
         </div>
         <div class = "third-slogan">
@@ -59,7 +60,7 @@
           <h2> Мини-курс «Основы кибербезопасности» </h2>
           <p style = "font-size: 18px; color: var(--color-green); opacity: 0.7;" > Модуль 1. Введение в кибербезопасность  </p>
         </div>
-        <div class = "module-1">
+        <div class = "module-1" id = "search">
           <div class = "module-1-text">
             <p>
               Кибербезопасность — это «щит» в цифровом мире. Она защищает компьютеры, сети и данные от атак хакеров, вирусов и прочих онлайн-угроз.
@@ -90,6 +91,21 @@
           </div>
         </div>
       </section>
+      <div class = "form-cont">
+        <div class = "form-text">
+          <h4> Имеются доп.вопросы?</h4>
+          <p> Напишите нам через форму ниже</p>
+        </div> <br>
+        <form>
+          <label> Имя </label>
+          <input>
+          <label> email </label>
+          <input>
+          <label> Сообщение </label>
+          <textarea> </textarea> <br>
+          <button> отправить </button>
+        </form>
+      </div>
     </div>
   </main>
   <footer>
