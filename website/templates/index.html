@@ -11,22 +11,7 @@
   <link rel = "stylesheet" href = "https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap">
 </head>
 <body>
-  <header>
-    <div class = "head">
-    <div class = "logo-image">
-      <img src = "../images/logo.webp" class = "logo" alt = "ЛОГО">
-    </div>
-    <div class = "logo-text">
-      <h1> <span> DARK </span> <br> <span> PULSE </span> </h1>
-    </div>
-     <nav>
-       <a> Главная </a>
-       <a> Новости </a>
-       <a> Документация </a>
-       <button class = "btn-about"> О нас </button>
-     </nav>
-    </div>
-  </header>
+  <div id="header-placeholder"></div>
   <main>
     <div class = "main-content">
        <div class = "hero">
@@ -98,7 +83,15 @@
       <hr>
       <div class = "news">
         <div class = "news-banner news-banner-1">
-
+        <img src = "../images/main_banner.webp" style ="width: 600px;">
+          <div class = "news-banner-1-text">
+            <p> <b> Утечка данных клиентов Gucci, Balenciaga и Alexander McQueen </b> <hr>
+               В июне 2025 года хакеры группы Shiny Hunters получили доступ к персональным данным клиентов Kering
+               (родительской компании брендов Gucci, Balenciaga, Alexander McQueen).
+               Утекли имена, адреса электронной почты, номера телефонов, даты рождения. Финансовые данные,
+               по заявлениям компании, не похищены.</p>
+            <a href = "../templates/news.html"> <i> подробнее... </i> </a>
+          </div>
         </div>
         <div class = "news-banner news-banner-2">
 
@@ -127,12 +120,7 @@
       </div>
     </div>
   </main>
-  <footer>
-    <br>
-    <div class = "footer">
-      <p> DARK PULSE 2025</p>
-      <small> Все права защищены.</small>
-    </div>
-  </footer>
+  <div id = "footer-placeholder"></div>
+  <script src = "../static/js/script.js"></script>
 </body>
 </html>

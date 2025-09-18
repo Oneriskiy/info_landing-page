@@ -55,6 +55,7 @@ a {
     font-family: var(--font-main);
     font-size: 17px;
     opacity: 0.8;
+    text-decoration: none;
 }
 
 .btn-about {
