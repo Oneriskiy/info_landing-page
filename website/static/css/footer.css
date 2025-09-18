@@ -4,6 +4,8 @@ footer {
 }
 
 .footer {
+    border-radius: 20px;
+    background: var(--background-footer);
     display: flex;
     flex-direction: column;
     justify-content: center;

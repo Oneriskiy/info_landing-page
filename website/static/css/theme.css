@@ -4,6 +4,7 @@
     --background-header: (0, 0, 0, 0.95);
     --button-back: rgba(3, 3, 3, 0.87);
     --background-hero: rgba(2, 2, 2, 0.35);
+    --background-footer: rgba(2, 2, 2, 0.1);
     --color-green: rgba(0, 255, 70, 1);
     --text-color: #C0C0C0;
     --font-main: 'PT Sans', sans-serif;
@@ -23,4 +24,7 @@ body {
      font-family: var(--font-main);
 }
 
+mark {
+background: var(--color-green);
+}
 

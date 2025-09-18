@@ -6,7 +6,7 @@ align-content: center;
 }
 
 .form-cont {
-background: url("../../images/shield.webp") no-repeat center center;;
+background: url("../../images/shield.webp") no-repeat center center;
 background-size: 600px 600px;
 display: flex;
 align-items: center;
