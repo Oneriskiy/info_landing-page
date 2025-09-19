@@ -28,3 +28,15 @@ mark {
 background: var(--color-green);
 }
 
+main {
+    font-family: var(--font-main);
+    color: var(--text-color);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.main-content {
+    width: 70%;
+    height: 100%;
+}
