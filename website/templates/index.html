@@ -81,31 +81,36 @@
         <h3> Новости из мира кибербезопасности </h3>
       </div>
       <br>
-      <hr>
+      <hr style = "color: var(--color-table);">
       <div class = "news">
         <div class = "news-banner news-banner-1">
-        <img src = "../images/main_banner.webp" style ="width: 600px;">
-          <div class = "news-banner-1-text">
-            <p> <b> Утечка данных клиентов Gucci, Balenciaga и Alexander McQueen </b> <hr>
-               В июне 2025 года хакеры группы Shiny Hunters получили доступ к персональным данным клиентов Kering
+        <img src = "../images/main_banner.webp" style ="width: 500px; border-radius: 20px;">
+          <article class = "news-banner-1-text"> <br>
+            <b> Утечка данных клиентов Gucci, Balenciaga и Alexander McQueen </b>
+            <p> В июне 2025 года хакеры группы Shiny Hunters получили доступ к персональным данным клиентов Kering
                (родительской компании брендов Gucci, Balenciaga, Alexander McQueen).
                Утекли имена, адреса электронной почты, номера телефонов, даты рождения. Финансовые данные,
                по заявлениям компании, не похищены.</p>
             <a href = "../templates/news.html"> <i> подробнее... </i> </a>
-          </div>
+          </article>
         </div>
-        <div class = "news-banner news-banner-2">
-
-        </div>
-        <div class = "news-banner news-banner-3">
-
-        </div>
-        <div class = "news-banner news-banner-4">
-
-        </div>
+        <article class = "news-banner news-banner-2">
+          <p> В Германии убытки от кибератак
+              в течение года превысили €300 млрд — компании всё чаще
+              страдают от ransomware, утечек и перебоев в производстве.</p>
+          <a href = "../templates/news.html"> подробнее... </a>
+        </article>
+        <article class = "news-banner news-banner-3">
+          <p> Apple сообщила: найдено 4 кампании со шпионскими программами,
+            бьющими по журналистам, активистам и госслужащим.
+            Используются уязвимости zero-day и zero-click,
+            поэтому заражение может произойти без действий пользователя.
+            Решение — срочно обновить устройства.</p>
+          <a href = "../templates/news.html"> подробнее... </a>
+        </article>
       </div>
       <section class = "info-project">
-         <div class = "info-project-text">
+         <div class = "info-project-text" id = "about-us">
             <h3> Информация о проекте </h3> <br>
            <p> <strong> Dark Pulse </strong> — это информационный портал о кибербезопасности. Мы освещаем всё самое важное: от новостей о взломах и утечках до практических рекомендаций, которые помогают защитить личные данные и корпоративные системы.
               Наш проект создан для того, чтобы сделать безопасность в цифровом мире доступной и понятной. Мы верим, что знания и вовремя полученная информация снижают риски и помогают избежать серьёзных проблем.
@@ -127,11 +132,11 @@
             <p> Напишите нам через форму ниже</p>
             <form>
               <label> Имя </label>
-              <input>
+                <input>
               <label> email </label>
-              <input>
+                <input>
               <label> Сообщение </label>
-              <textarea> </textarea> <br>
+                <textarea> </textarea> <br>
               <button> отправить </button>
             </form>
           </div> <br>
