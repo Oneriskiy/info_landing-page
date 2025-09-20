@@ -1,0 +1,9 @@
+@media (max-width: 600px) {
+    nav {
+        display: none;
+    }
+    h2 {font-size: 16px;}
+    p {font-size: 13px;}
+    .hero-text {width: 200px;}
+
+}
