@@ -231,9 +231,3 @@ h2 {
     font-size: 31px;
 }
 
-.document {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
